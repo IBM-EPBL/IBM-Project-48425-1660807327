@@ -1,5 +1,0 @@
-![output](./output/kab1.jpg)
-![output](./output/kab2.jpg)
-![output](./output/kab3.jpg)
-![output](./output/kab4.jpg)
-![output](./output/kab5.jpg)
