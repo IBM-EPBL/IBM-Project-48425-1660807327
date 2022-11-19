@@ -1,0 +1,5 @@
+---
+applications:
+  - name: IbmExpenseTracker
+    random-route: true
+    memory: 128M

@@ -1,0 +1,23 @@
+# Update <REGISTRY> <NAMESPACE> values before use
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: expense-tracker
+  labels:
+    app: expense-tracker
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: expense-tracker
+  template:
+    metadata:
+      labels:
+        app: expense-tracker
+    spec:
+      containers:
+        - name: expense-tracker
+          image: au.icr.io/lat_exp/lat_repo:latest
+          ports:
+            - containerPort: 5000
+          imagePullPolicy: Always
