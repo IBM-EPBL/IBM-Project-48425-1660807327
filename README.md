@@ -52,8 +52,7 @@ TEAM MEMBERS:
 
 Docker is a virtualization environment which is used to run multiple OS embarked inside a single hardware processor. Docker virtualize OS rather than virtualization hardware like in VM/Hypervisor. These dockers are structurally similar to VM/Hypervisor but unlike it, dockers are fast, lightweight, sandbox and easy to deploy. Docker engines uses small functional units called containers which are simply micro-computers, they have their own memory, network & dependencies. These micro-computers can be as powerful as you want it to be. So, How does these stuff work so fast?? and be light-weight?? Here is the catch... These are purely OS based which means, a Linux kernel based docker can only create and use a Linux based container.. they cant support any other OS, but recently an year ago Microsoft came up with WSL as a solution to this problem.
 
-![Differences between a VM and Docker]([_resources/123213123131.png](https://raw.githubusercontent.com/IBM-EPBL/IBM-Project-8590-1658925321/main/_resources/123213123131.png))  
-
+![Differences between a VM and Docker]
 - installing docker  
 
   `apt install docker.io` # Debian
@@ -117,12 +116,12 @@ Deployment --> Pod --> Node
 - ExternalName - This type of service helps us to expose or map the service by using a predefined name 'externalName' field.
 
 
-![Docker Services](_resources/1_tnK94zrEwyNe1hL-PhJXOA.png)
+![Docker Services]
 
 
 #### This is our interpretation of using 3 pods with single node in Kubernetes.
 
-![Kubernetes using docker](_resources/kubernetes.png)
+![Kubernetes using docker]
 
 According to the above figure, these 3 pods have different IP addresses and their respective open ports.
 
