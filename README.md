@@ -49,7 +49,7 @@ TEAM MEMBERS:
 
 ## Docker
 
-<img src="_resources/629c20b332a090d680dface57413914f.png" width=125 alt="Docker LOGO">  
+
 Docker is a virtualization environment which is used to run multiple OS embarked inside a single hardware processor. Docker virtualize OS rather than virtualization hardware like in VM/Hypervisor. These dockers are structurally similar to VM/Hypervisor but unlike it, dockers are fast, lightweight, sandbox and easy to deploy. Docker engines uses small functional units called containers which are simply micro-computers, they have their own memory, network & dependencies. These micro-computers can be as powerful as you want it to be. So, How does these stuff work so fast?? and be light-weight?? Here is the catch... These are purely OS based which means, a Linux kernel based docker can only create and use a Linux based container.. they cant support any other OS, but recently an year ago Microsoft came up with WSL as a solution to this problem.
 
 ![Differences between a VM and Docker](_resources/123213123131.png)  
@@ -98,7 +98,7 @@ To save myself from wasting time by fondling with these codes, we wrote a script
 
 ## Kubernetes
 
-<img src="_resources/7049552d12ea67dbb20aac93edef6e62.png" width=90px>
+
 Kubernetes, also known as K8s, is an open-source system for automating deployment, scaling, and management of containerized applications. Docker and Kubernetes go hand in hand with each other as one of its worker modules. 
 Things got a little weird when we couldn't access our deployment or pods from our machine, turns out all these are under private IP address and unlike docker they are not exposed automatically and it should be manually exposed by a Kubernetes service. These Kubernetes services are crucial in deployment as they get to tell the nature of orchestration of pods/deployments and expose applications.
 
